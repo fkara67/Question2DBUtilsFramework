@@ -11,7 +11,7 @@ import java.util.Map;
 public class Question2StepDef {
     private static int count = 0;
 
-    @Given("{string} {string} {int} should match the DB record")
+    @Given("{string} {string} {long} should match the DB record")
     public void should_match_the_db_record(String month, String staff_name, long sales_count) {
         String query = "SELECT TO_CHAR(payment_date,'Month') AS month,CONCAT(first_name,' ',last_name) AS staff_name,COUNT(*) AS sales_count \n" +
                 "FROM staff s\n" +
