@@ -10,10 +10,10 @@ Feature: Homework DB verification
     Examples:
       | month    | staff_name   | sales_count |
       | February | Mike Hillyer | 1016        |
-  #| February | Jon Stephens | 1000        |
-   #   | March | Mike Hillyer | 2817        |
-    #  | March | Jon Stephens | 2817        |
-     # | April | Jon Stephens | 3390        |
-      #| April | Mike Hillyer | 3364        |
-      #| May   | Mike Hillyer | 95          |
-      #| May   | Jon Stephens | 87          |
+      | February | Jon Stephens | 1000        |
+      | March    | Mike Hillyer | 2817        |
+      | March    | Jon Stephens | 2827        |
+      | April    | Jon Stephens | 3390        |
+      | April    | Mike Hillyer | 3364        |
+      | May      | Mike Hillyer | 95          |
+      | May      | Jon Stephens | 87          |
